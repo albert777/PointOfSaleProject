@@ -17,7 +17,8 @@ namespace pointOfSales
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PointOfSales());
+            Application.Run(new loginform());
+            Application.Run(new pointofsales());
         }
     }
 }

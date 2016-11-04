@@ -69,25 +69,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="logging_form.cs">
+    <Compile Include="loginform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="logging_form.Designer.cs">
-      <DependentUpon>logging_form.cs</DependentUpon>
+    <Compile Include="loginform.Designer.cs">
+      <DependentUpon>loginform.cs</DependentUpon>
     </Compile>
-    <Compile Include="poinofsalesdesign.cs">
+    <Compile Include="pointofsales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="poinofsalesdesign.Designer.cs">
-      <DependentUpon>poinofsalesdesign.cs</DependentUpon>
+    <Compile Include="pointofsales.Designer.cs">
+      <DependentUpon>pointofsales.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="logging_form.resx">
-      <DependentUpon>logging_form.cs</DependentUpon>
+    <EmbeddedResource Include="loginform.resx">
+      <DependentUpon>loginform.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="poinofsalesdesign.resx">
-      <DependentUpon>poinofsalesdesign.cs</DependentUpon>
+    <EmbeddedResource Include="pointofsales.resx">
+      <DependentUpon>pointofsales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

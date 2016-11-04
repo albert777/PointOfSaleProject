@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tasks>
+  <item>
+    <text>create database</text>
+    <finished>false</finished>
+  </item>
+  <item>
+    <text>Create windows</text>
+    <finished>false</finished>
+  </item>
+  <item>
+    <text>create logon form</text>
+    <finished>false</finished>
+  </item>
+  <item>
+    <text>create gui</text>
+    <finished>false</finished>
+  </item>
+</Tasks>

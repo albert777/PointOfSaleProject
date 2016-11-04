@@ -10,14 +10,24 @@ using System.Windows.Forms;
 
 namespace pointOfSales
 {
-    public partial class PointOfSales : Form
+    public partial class loginform : Form
     {
-        public PointOfSales()
+        public loginform()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void username_label_Click(object sender, EventArgs e)
         {
 
         }
