@@ -1,6 +1,6 @@
 ﻿namespace pointOfSales
 {
-    partial class loginform
+    partial class loginformbeta
     {
         /// <summary>
         /// Required designer variable.

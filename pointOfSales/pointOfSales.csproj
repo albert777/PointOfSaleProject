@@ -69,25 +69,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="loginform.cs">
+    <Compile Include="GUI\customerregisterbeta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="loginform.Designer.cs">
-      <DependentUpon>loginform.cs</DependentUpon>
+    <Compile Include="GUI\customerregisterbeta.Designer.cs">
+      <DependentUpon>customerregisterbeta.cs</DependentUpon>
     </Compile>
-    <Compile Include="pointofsales.cs">
+    <Compile Include="GUI\inventorybeta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pointofsales.Designer.cs">
+    <Compile Include="GUI\inventorybeta.Designer.cs">
+      <DependentUpon>inventorybeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\loginformbeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\loginformbeta.Designer.cs">
+      <DependentUpon>loginformbeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\pointofsales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\pointofsales.Designer.cs">
       <DependentUpon>pointofsales.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="loginform.resx">
-      <DependentUpon>loginform.cs</DependentUpon>
+    <Compile Include="GUI\sellspointbeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\sellspointbeta.Designer.cs">
+      <DependentUpon>sellspointbeta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\userregisterbeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\userregisterbeta.Designer.cs">
+      <DependentUpon>userregisterbeta.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GUI\loginformbeta.resx">
+      <DependentUpon>loginformbeta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pointofsales.resx">
+    <EmbeddedResource Include="GUI\pointofsales.resx">
       <DependentUpon>pointofsales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\userregisterbeta.resx">
+      <DependentUpon>userregisterbeta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

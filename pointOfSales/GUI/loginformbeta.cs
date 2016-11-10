@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pointOfSales
 {
-    public partial class loginform : Form
+    public partial class loginformbeta : Form
     {
-        public loginform()
+        public loginformbeta()
         {
             InitializeComponent();
         }
