@@ -10,6 +10,6 @@ inventorybeta
 loginformbeta
 	Log in form
 userregisterbeta
-Form for adding user
+	Form for adding user
 sellspointbeta
 	Main interface for selling item.

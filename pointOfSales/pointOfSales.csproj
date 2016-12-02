@@ -69,6 +69,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="object\customer.cs" />
     <Compile Include="GUI_generated\customerregisterbeta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +94,9 @@
     <Compile Include="GUI_generated\pointofsales.Designer.cs">
       <DependentUpon>pointofsales.cs</DependentUpon>
     </Compile>
+    <Compile Include="object\inventory.cs" />
+    <Compile Include="object\item.cs" />
+    <Compile Include="object\profiles.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GUI_generated\sellspointbeta.cs">
@@ -107,6 +111,9 @@
     <Compile Include="GUI_generated\userregisterbeta.Designer.cs">
       <DependentUpon>userregisterbeta.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="GUI_generated\customerregisterbeta.resx">
+      <DependentUpon>customerregisterbeta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI_generated\loginformbeta.resx">
       <DependentUpon>loginformbeta.cs</DependentUpon>
     </EmbeddedResource>
