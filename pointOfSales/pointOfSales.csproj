@@ -69,51 +69,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GUI\customerregisterbeta.cs">
+    <Compile Include="GUI_generated\customerregisterbeta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\customerregisterbeta.Designer.cs">
+    <Compile Include="GUI_generated\customerregisterbeta.Designer.cs">
       <DependentUpon>customerregisterbeta.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\inventorybeta.cs">
+    <Compile Include="GUI_generated\inventorybeta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\inventorybeta.Designer.cs">
+    <Compile Include="GUI_generated\inventorybeta.Designer.cs">
       <DependentUpon>inventorybeta.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\loginformbeta.cs">
+    <Compile Include="GUI_generated\loginformbeta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\loginformbeta.Designer.cs">
+    <Compile Include="GUI_generated\loginformbeta.Designer.cs">
       <DependentUpon>loginformbeta.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\pointofsales.cs">
+    <Compile Include="GUI_generated\pointofsales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\pointofsales.Designer.cs">
+    <Compile Include="GUI_generated\pointofsales.Designer.cs">
       <DependentUpon>pointofsales.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GUI\sellspointbeta.cs">
+    <Compile Include="GUI_generated\sellspointbeta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\sellspointbeta.Designer.cs">
+    <Compile Include="GUI_generated\sellspointbeta.Designer.cs">
       <DependentUpon>sellspointbeta.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\userregisterbeta.cs">
+    <Compile Include="GUI_generated\userregisterbeta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\userregisterbeta.Designer.cs">
+    <Compile Include="GUI_generated\userregisterbeta.Designer.cs">
       <DependentUpon>userregisterbeta.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GUI\loginformbeta.resx">
+    <EmbeddedResource Include="GUI_generated\loginformbeta.resx">
       <DependentUpon>loginformbeta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\pointofsales.resx">
+    <EmbeddedResource Include="GUI_generated\pointofsales.resx">
       <DependentUpon>pointofsales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\userregisterbeta.resx">
+    <EmbeddedResource Include="GUI_generated\userregisterbeta.resx">
       <DependentUpon>userregisterbeta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
